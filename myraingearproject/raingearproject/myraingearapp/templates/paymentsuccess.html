@@ -1,0 +1,34 @@
+{% extends 'nav.html' %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>payment success</title>
+</head>
+<body>
+    {% block myblock %}
+    <div class="container mt-5 mb-5">
+        <div class="d-flex justify-content-center row">
+            <div class="col-md-10">
+                <div>
+                    <div class="card text-center" style=" margin-bottom: 15px; margin-top: 15px;">
+
+                        <h5>
+                            <div>Congratulations {{firstname}} your payment is successful!</div>
+                            <div>
+                                Your service will be processed on said date and time!
+                            </div>
+                        </h5>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    {% endblock %}
+</body>
+
+</html>

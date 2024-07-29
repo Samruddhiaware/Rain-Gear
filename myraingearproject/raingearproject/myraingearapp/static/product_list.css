@@ -1,0 +1,38 @@
+*{
+    list-style-type: none;
+}
+.navbar-light {
+    background-color:#d4f1f4;
+  
+
+}
+.listing-section{
+    margin-top: 20px;
+
+}
+.list-inner{
+    width:75%;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:15px;
+    margin: auto;
+
+}
+
+.sidebar .bar{
+    margin-left:200px;
+}
+
+.go-left{
+    transform: translateX(-100px);
+}
+.add-cart{
+    display: flex;
+    justify-content: space-around;
+}
+.add-cart button{
+    width:100px;
+    background-color: red;
+    color:white;
+}
